@@ -86,7 +86,7 @@ hr {
 }
 
 mark {
-  color: #000;
+  color: #0d747c;
   background: #ff0;
 }
 
@@ -217,7 +217,7 @@ table {
 
 @media print {
   * {
-    color: #000 !important;
+    color: #0d747c !important;
     text-shadow: none !important;
     background: transparent !important;
     box-shadow: none !important;
@@ -274,10 +274,10 @@ table {
   }
   .btn > .caret,
   .dropup > .btn > .caret {
-    border-top-color: #000 !important;
+    border-top-color: #0d747c !important;
   }
   .label {
-    border: 1px solid #000;
+    border: 1px solid #0d747c;
   }
   .table {
     border-collapse: collapse !important;
@@ -1561,7 +1561,7 @@ th {
 
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
-  background-color: #13a0aa;
+  background-color: #484848;
 }
 
 table col[class*="col-"] {
@@ -4699,8 +4699,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #ad1d28;
-  border-color: #911821;
+  background-color: #0d747c;
+  border-color: #0c0c0c;
 }
 
 .navbar-default .navbar-brand {
@@ -4938,7 +4938,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #13a0aa;
+  background-color: #484848;
   border-radius: 4px;
 }
 
@@ -4975,7 +4975,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
   line-height: 1.428571429;
   text-decoration: none;
-  background-color: #13a0aa;
+  background-color: #484848;
   border: 1px solid transparent;
 }
 
@@ -5018,7 +5018,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pagination > .disabled > a:focus {
   color: #ffffff;
   cursor: not-allowed;
-  background-color: #13a0aa;
+  background-color: #484848;
   border-color: transparent;
 }
 
@@ -5123,7 +5123,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: #13a0aa;
+  background-color: #484848;
   border: 1px solid transparent;
   border-radius: 15px;
 }
@@ -5150,7 +5150,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pager .disabled > span {
   color: #ffffff;
   cursor: not-allowed;
-  background-color: #13a0aa;
+  background-color: #484848;
 }
 
 .label {
@@ -5672,7 +5672,7 @@ a.list-group-item:focus {
 
 .panel {
   margin-bottom: 20px;
-  background-color: #13a0aa;
+  background-color: #484848;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -5952,7 +5952,7 @@ a.list-group-item:focus {
   font-size: 21px;
   font-weight: bold;
   line-height: 1;
-  color: #000000;
+  color: #0d747c;
   text-shadow: 0 1px 0 #ffffff;
   opacity: 0.2;
   filter: alpha(opacity=20);
@@ -5960,7 +5960,7 @@ a.list-group-item:focus {
 
 .close:hover,
 .close:focus {
-  color: #000000;
+  color: #0d747c000;
   text-decoration: none;
   cursor: pointer;
   opacity: 0.5;
@@ -6023,7 +6023,7 @@ body.modal-open,
 
 .modal-content {
   position: relative;
-  background-color: #13a0aa;
+  background-color: #484848;
   border: 1px solid #999999;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 6px;
@@ -6040,7 +6040,7 @@ body.modal-open,
   bottom: 0;
   left: 0;
   z-index: 1030;
-  background-color: #000000;
+  background-color: #0d747c000;
 }
 
 .modal-backdrop.fade {
@@ -6491,7 +6491,7 @@ body.modal-open,
   background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#0d747c00000', GradientType=1);
 }
 
 .carousel-control.right {
@@ -6502,7 +6502,7 @@ body.modal-open,
   background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d747c00000', endColorstr='#80000000', GradientType=1);
 }
 
 .carousel-control:hover,
@@ -7323,7 +7323,7 @@ legend {
 }
 
 .list-group-item {
-  background-color: #13a0aa;
+  background-color: #0d747c;
 }
 
 .popover {

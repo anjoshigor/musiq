@@ -1,0 +1,73 @@
+extends layout
+
+block fullwidth
+    .parallax
+
+block content
+    .row.page-header
+        .col-xs-12.col-md-8.bottom3
+            h1 Forró Concert
+            span.label.label-info forró
+            &nbsp;
+            span.label.label-info brazil
+            &nbsp;
+            span.label.label-info folk
+            &nbsp;
+        .col-x2-12.col-md-4
+            iframe(src='https://open.spotify.com/embed?uri=spotify:user:erebore:playlist:788MOXyTfcUb1tdw4oC7KJ&theme=white', width='250', height='80', frameborder='0', allowtransparency='true')
+
+    .row
+        .col-xs-12.col-md-12
+            .row
+                .col-xs-12.col-sm-6
+                    p 243 Historic Center Street, Downtown
+                    .panel.panel-primary
+                        .panel-heading
+                            h2.panel-title Date & Time
+                        .panel-body
+                            p Start: apr 23th, 2017 8pm
+                            p End: apr 24th, 2017 3am
+                    .panel.panel-primary
+                        .panel-heading
+                            h2.panel-title Description
+                        .panel-body
+                            p Voluptatem similique quia. Aliquam nemo ut quasi aspernatur. Et quisquam consequatur debitis vitae laudantium et ducimus minus necessitatibus. Blanditiis dolores enim et excepturi quam voluptas. Tempore placeat maiores. Odit eum blanditiis aut aliquam ad ipsum autem aliquam. Perferendis praesentium dolor sint molestias. Pariatur neque qui quas. Dolore voluptas ea earum illo voluptas ipsum sed. Ut voluptatem sed in. Odio quam suscipit iste eum minima consequatur itaque. Vel rem dolor.        
+                    .panel.panel-primary
+                        .panel-heading
+                            h2.panel-title Created by
+                        .panel-body
+                            .col-xs-4.col-lg-2
+                                img.img-circle.avatar(src="https://s3.amazonaws.com/uifaces/faces/twitter/stefvdham/128.jpg")
+                            .col-xs-8.col-lg-10
+                                p Created by
+                                h3.top3 Ruby Crooks
+                .col-xs-12.col-sm-6.location-map
+                    .panel.panel-primary
+                        .panel-heading
+                            h2.panel-title Location map
+                        .panel-body
+                            img.img-responsive.img-rounded(src='https://maps.googleapis.com/maps/api/staticmap?center=-7.1137173,-34.8889162&zoom=16&size=640x400&sensor=false&markers=-7.1137173,-34.8889162&scale=2')
+                    .panel.panel-primary
+                        .panel-heading
+                            h2.panel-title Share
+                        .panel-body
+                            a.btn.btn-social-icon.btn-twitter.right3
+                                span.fa.fa-twitter
+                            a.btn.btn-social-icon.btn-facebook.right3
+                                span.fa.fa-facebook
+                            a.btn.btn-social-icon.btn-instagram
+                                span.fa.fa-instagram
+    .row
+        .col-xs-12
+            .panel.panel-primary.review-panel
+                .panel-heading
+                    a.btn.btn-default.pull-right(href='/event/comment/new') Add comment   
+                    h2.panel-title Comments     
+                .panel-body.review-container
+                    .row
+                        .review
+                            .well.well-sm.review-header
+                                span.reviewAuthor Novella Ruecker
+                                small.reviewTimestamp 23 July 2017
+                            .col-xs-12
+                                p Dolorem ullam rerum ipsum. Et ut sapiente beatae mollitia sit minima eos. Possimus autem harum et fugit est maiores eos. Quisquam voluptas exercitationem voluptates ad quia. Voluptas quos eos eos vitae occaecati facilis delectus neque cum. Illum maiores suscipit quis corporis enim.

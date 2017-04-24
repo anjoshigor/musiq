@@ -4,9 +4,32 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title= title
     link(rel='stylesheet', href='/bootstrap/css/amelia.bootstrap.css')
+    link(rel='stylesheet', href='/bootstrap/css/font-awesome.css')
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap-social.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    block content
+    .navbar.navbar-default.navbar-fixed-top
+      .container
+        .navbar-header
+          a.navbar-brand(href='/') Musiq
+          button.navbar-toggle(type='button', data-togle='collapse', data-target='#navbar-main')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+
+        #navbar-main.navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li
+              a(href="/about") About
+        
+    block fullwidth
+    
+    .container
+      block content
+    
+    footer
+      .container.text-center
+        small &copy; Higor Anjos 2017 based on Simon Holmes
 
     script(src='/javascripts/jquery-1.11.1.min.js')
     script(src='/bootstrap/js/bootstrap.min.js')
