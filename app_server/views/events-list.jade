@@ -4,24 +4,26 @@ block content
     #banner.page-header
         .row
             .col-xs-12.col-lg-6
-                h1 Musiq
-                    small &nbsp; Find indie events near you!
-    .row
-        .col-xs-12.col-lg-8
-            .row.list-group
-                .col-xs-12
-                    img.img-responsive(src='/image/forro.jpg' alt="Maestro Forró e Orquestra Popular da Bomba do Hemetério")                  
-                    .list-group-item
-                        h4
-                            a(href="/event") Forró Concert
-                            span.badge.pull-right.badge-default 2km
-                        p 243 Historic Center Street, Downtown
-                        p April 23rd
-                        p
-                            span.label.label-info forró
-                            &nbsp;
-                            span.label.label-info brazil
-                            &nbsp;
-                            span.label.label-info folk
-                            &nbsp;
-        
+                h1=pageHeader.title
+                    small &nbsp;#{pageHeader.strapline}
+    each event in events
+      .row
+          .col-xs-12.col-lg-8
+              .row.list-group
+                  .col-xs-12
+                      a(href="/event") 
+                        img.img-responsive(src="#{event.photo.url}" alt="#{event.photo.alt}")                  
+                      .list-group-item
+                          h4
+                              a(href="/event") #{event.name}
+                              span.badge.pull-right.badge-default &nbsp; #{event.distance} &nbsp;
+                          p 
+                            span=event.address
+                            span.badge.pull-right.badge-success
+                              |&nbsp; #{event.date.month} &nbsp;
+                              br 
+                              |&nbsp; #{event.date.day} &nbsp;
+                          p
+                            each tag in event.tags
+                              span.label.label-info=tag
+                              &nbsp;

@@ -5250,6 +5250,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
   display: none;
 }
 
+.badge-success{
+  color: #ffffff;
+  background-color: #48ca3b;
+  border-color: #55b932;
+}
+
 a.badge:hover,
 a.badge:focus {
   color: #ffffff;
